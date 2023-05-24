@@ -45,7 +45,7 @@ export default function Images() {
 
   const headers = {
     'Content-Type': 'application/json',
-    'Api-Key': process.env.NEXT_PUBLIC_MUSHROOM_API_KEY,
+    'Api-Key': apiKey,
     // 'Access-Control-Allow-Origin': 'Content-Type'
   };
 

@@ -62,7 +62,7 @@ export default function Images() {
           );
           break;
         default:
-          setKey(process.env.NEXT_PUBLIC_MUSHROOM_API_KEY as string);
+          setKey(process.env.NEXT_PUBLIC_PLANT_API_KEY as string);
           setData({
             images,
             similar_images: true,

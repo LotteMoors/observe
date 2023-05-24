@@ -62,7 +62,7 @@ export default function Images() {
 
   const Identify = () => {
     axios
-      .post(URL, JSON.stringify(images), { headers })
+      .post(URL, JSON.stringify(data), { headers })
       .then((res) => {
         console.log('Success:', res.data);
         setResponse(res.data);

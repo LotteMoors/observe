@@ -11,46 +11,66 @@ export default function Images() {
   const [response, setResponse] = useState('');
   const [error, setError] = useState(false);
   const [key, setKey] = useState('');
-  const URL =
-    topic === 'plants'
-      ? 'https://api.plant.id/v2/identify'
-      : topic === 'mushrooms'
-      ? 'https://mushroom.mlapi.ai/api/v1/identification?details=common_names,url'
-      : 'https://insect.mlapi.ai/api/v1/identification?details=common_names,url';
-
-  const data =
-    topic !== 'plants'
-      ? {
-          images,
-          similar_images: true,
-        }
-      : {
-          images,
-          modifiers: ['crops_fast', 'similar_images'],
-          plant_details: [
-            'common_names',
-            'url',
-            'name_authority',
-            'wiki_description',
-            'taxonomy',
-            'synonyms',
-          ],
-        };
+  const [data, setData] = useState({});
+  const [url, setUrl] = useState('');
 
   useEffect(() => {
     if (topic) {
       switch (topic) {
         case 'plants':
           setKey(process.env.NEXT_PUBLIC_PLANT_API_KEY as string);
+          setData({
+            images,
+            modifiers: ['crops_fast', 'similar_images'],
+            plant_details: [
+              'common_names',
+              'url',
+              'name_authority',
+              'wiki_description',
+              'taxonomy',
+              'synonyms',
+            ],
+          });
+          setUrl('https://api.plant.id/v2/identify');
           break;
         case 'mushrooms':
           setKey(process.env.NEXT_PUBLIC_MUSHROOM_API_KEY as string);
+          setData({
+            images,
+            modifiers: ['crops_fast', 'similar_images'],
+            plant_details: [
+              'common_names',
+              'url',
+              'name_authority',
+              'wiki_description',
+              'taxonomy',
+              'synonyms',
+            ],
+          });
+          setUrl(
+            'https://mushroom.mlapi.ai/api/v1/identification?details=common_names,url'
+          );
           break;
         case 'insects':
           setKey(process.env.NEXT_PUBLIC_INSECT_API_KEY as string);
+          setData({
+            images,
+            similar_images: true,
+          });
+          setUrl(
+            'https://insect.mlapi.ai/api/v1/identification?details=common_names,url'
+          );
+          break;
+        default:
+          setKey(process.env.NEXT_PUBLIC_MUSHROOM_API_KEY as string);
+          setData({
+            images,
+            similar_images: true,
+          });
+          setUrl('https://api.plant.id/v2/identify');
       }
     }
-  }, [topic]);
+  }, [images, topic]);
 
   const headers = {
     'Content-Type': 'application/json',
@@ -71,7 +91,7 @@ export default function Images() {
 
   const Identify = () => {
     axios
-      .post(URL, JSON.stringify(data), { headers })
+      .post(url, JSON.stringify(data), { headers })
       .then((res) => {
         console.log('Success:', res.data);
         setResponse(res.data);

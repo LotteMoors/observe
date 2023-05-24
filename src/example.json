@@ -1,0 +1,223 @@
+[
+    {
+        "id": 457076612,
+        "plant_name": "Monstera deliciosa",
+        "plant_details": {
+            "common_names": [
+                "Fruit Salad Plant",
+                "Swiss cheese plant"
+            ],
+            "url": "https://en.wikipedia.org/wiki/Monstera_deliciosa",
+            "name_authority": "Monstera deliciosa Liebm.",
+            "wiki_description": {
+                "value": "Monstera deliciosa, the Swiss cheese plant, is a species of flowering plant native to tropical forests of southern Mexico, south to Panama. It has been introduced to many tropical areas, and has become a mildly invasive species in Hawaii, Seychelles, Ascension Island and the Society Islands. It is very widely grown in temperate zones as a houseplant.\nThe plant may be confused with Thaumatophyllum bipinnatifidum, known as the Split-leaf Philodendron or Tree Philodendron, as they have similar leaves and growing habits. However, the ingestion of Thaumatophyllum bipinnatifidum may cause irritation to the digestive tract and will induce internal swelling. The sap is also known to irritate the skin.",
+                "citation": "https://en.wikipedia.org/wiki/Monstera_deliciosa",
+                "license_name": "CC BY-SA 3.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+            },
+            "taxonomy": {
+                "class": "Magnoliopsida",
+                "family": "Araceae",
+                "genus": "Monstera",
+                "kingdom": "Plantae",
+                "order": "Alismatales",
+                "phylum": "Magnoliophyta"
+            },
+            "synonyms": [
+                "Monstera borsigiana",
+                "Monstera deliciosa var. borsigiana",
+                "Monstera deliciosa var. sierrana",
+                "Monstera tacanaensis",
+                "Philodendron anatomicum",
+                "Philodendron pertusum",
+                "Tornelia fragrans"
+            ],
+            "language": "en",
+            "scientific_name": "Monstera deliciosa",
+            "structured_name": {
+                "genus": "monstera",
+                "species": "deliciosa"
+            }
+        },
+        "probability": 0.8979017842316269,
+        "confirmed": false,
+        "similar_images": [
+            {
+                "id": "c4e0af8558e21d151cb62f8d784850b9",
+                "similarity": 0.42215193147584057,
+                "url": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/images/c4e/0af8558e21d151cb62f8d784850b9.jpg",
+                "url_small": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/images/c4e/0af8558e21d151cb62f8d784850b9.small.jpg"
+            },
+            {
+                "id": "6e9a05317cfad2c0a4bf169fd237b61e",
+                "similarity": 0.40332662437948313,
+                "url": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/images/6e9/a05317cfad2c0a4bf169fd237b61e.jpg",
+                "url_small": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/images/6e9/a05317cfad2c0a4bf169fd237b61e.small.jpg"
+            }
+        ]
+    },
+    {
+        "id": 457076613,
+        "plant_name": "Thaumatophyllum bipinnatifidum",
+        "plant_details": {
+            "common_names": [
+                "lacy tree philodendron",
+                "selloum",
+                "horsehead philodendron"
+            ],
+            "url": "https://en.wikipedia.org/wiki/Thaumatophyllum_bipinnatifidum",
+            "name_authority": "Thaumatophyllum bipinnatifidum (Schott ex Endl.) Sakur., Calazans & Mayo",
+            "wiki_description": {
+                "value": "Thaumatophyllum bipinnatifidum (common names: lacy tree philodendron, selloum, horsehead philodendron) is a plant that belongs to the family Araceae and genus Thaumatophyllum, which previously was placed at subgenus Meconostigma, one of three subgenera within the genus Philodendron. The commonly used name Philodendron bipinnatifidum is a synonym. This plant is native to South America, namely to Brazil, Bolivia, Argentina, and Paraguay, but is also cultivated as a landscape plant in tropical, subtropical and warm temperate climates.",
+                "citation": "https://en.wikipedia.org/wiki/Thaumatophyllum_bipinnatifidum",
+                "license_name": "CC BY-SA 3.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+            },
+            "taxonomy": {
+                "class": "Magnoliopsida",
+                "family": "Araceae",
+                "genus": "Thaumatophyllum",
+                "kingdom": "Plantae",
+                "order": "Alismatales",
+                "phylum": "Magnoliophyta"
+            },
+            "synonyms": [
+                "Arum pinnatifidum",
+                "Philodendron bipinnatifidum",
+                "Philodendron pygmaeum",
+                "Sphincterostigma bipinnatifidum"
+            ],
+            "language": "en",
+            "scientific_name": "Thaumatophyllum bipinnatifidum",
+            "structured_name": {
+                "genus": "thaumatophyllum",
+                "species": "bipinnatifidum"
+            }
+        },
+        "probability": 0.03355320719878307,
+        "confirmed": false,
+        "similar_images": [
+            {
+                "id": "b53cde4432b721705a28fc8ab9ae651b",
+                "similarity": 0.30092544273915267,
+                "url": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/images/b53/cde4432b721705a28fc8ab9ae651b.jpg",
+                "url_small": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/images/b53/cde4432b721705a28fc8ab9ae651b.small.jpg"
+            },
+            {
+                "id": "3ae29498e61f8c7644a344b91a057ea9",
+                "similarity": 0.28436067765852424,
+                "url": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/images/3ae/29498e61f8c7644a344b91a057ea9.jpg",
+                "url_small": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/images/3ae/29498e61f8c7644a344b91a057ea9.small.jpg"
+            }
+        ]
+    },
+    {
+        "id": 457076614,
+        "plant_name": "Philodendron",
+        "plant_details": {
+            "common_names": null,
+            "url": "https://en.wikipedia.org/wiki/Philodendron",
+            "name_authority": "Philodendron Schott",
+            "wiki_description": {
+                "value": "Philodendron is a large genus of flowering plants in the family Araceae. As of September 2015, the World Checklist of Selected Plant Families accepted 489 species; other sources accept different numbers. Regardless of number of species, the genus is the second-largest member of the family Araceae. Taxonomically, the genus Philodendron is still poorly known, with many undescribed species. Many are grown as ornamental and indoor plants. The name derives from the Greek words philo- or \"love, affection\" and dendron or \"tree\". The generic name, Philodendron, is often used as the English name, \"philodendron\".",
+                "citation": "https://en.wikipedia.org/wiki/Philodendron",
+                "license_name": "CC BY-SA 3.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+            },
+            "taxonomy": {
+                "class": "Magnoliopsida",
+                "family": "Araceae",
+                "genus": "Philodendron",
+                "kingdom": "Plantae",
+                "order": "Alismatales",
+                "phylum": "Magnoliophyta"
+            },
+            "synonyms": [
+                "Arosma",
+                "Baursea",
+                "Calostigma",
+                "Elopium",
+                "Meconostigma",
+                "Sphincterostigma",
+                "Telipodus"
+            ],
+            "language": "en",
+            "scientific_name": "Philodendron",
+            "structured_name": {
+                "genus": "philodendron"
+            }
+        },
+        "probability": 0.013727639562343175,
+        "confirmed": false,
+        "similar_images": [
+            {
+                "id": "def5f822f18e3a238fcf074749ba8f88",
+                "similarity": 0.31961316875799595,
+                "url": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/images/def/5f822f18e3a238fcf074749ba8f88.jpg",
+                "url_small": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/images/def/5f822f18e3a238fcf074749ba8f88.small.jpg"
+            },
+            {
+                "id": "a9985c5d9069b9a878a4280d0954c70c",
+                "similarity": 0.30195237015341164,
+                "url": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/images/a99/85c5d9069b9a878a4280d0954c70c.jpg",
+                "url_small": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/images/a99/85c5d9069b9a878a4280d0954c70c.small.jpg"
+            }
+        ]
+    },
+    {
+        "id": 457076615,
+        "plant_name": "Rhaphidophora tetrasperma",
+        "plant_details": {
+            "common_names": [
+                "Mini Monstera",
+                "Philodendron \"Ginny\"",
+                "Philodendron \"Piccolo\""
+            ],
+            "url": "https://en.wikipedia.org/wiki/Rhaphidophora_tetrasperma",
+            "name_authority": "Rhaphidophora tetrasperma Hook.f.",
+            "wiki_description": {
+                "value": "Rhaphidophora tetrasperma (common names: \"Mini Monstera\", Philodendron \"Ginny\", Philodendron \"Piccolo\") is a species of plant in the family Araceae, genus Rhaphidophora. It is native to Southern Thailand and to Malaysia.\nThis aroid has often been mistaken for other species and families, as evidenced by some of the above common names used by plant nurseries and retailers. Some of these mistaken identities include: Monstera deliciosa (mistaken for a miniature version), Philodendron sp., and Epipremnum pinnatum, which can all have similar, pinnate foliage, depending on the individual plant's stage of life.",
+                "citation": "https://en.wikipedia.org/wiki/Rhaphidophora_tetrasperma",
+                "license_name": "CC BY-SA 3.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+            },
+            "taxonomy": {
+                "class": "Magnoliopsida",
+                "family": "Araceae",
+                "genus": "Rhaphidophora",
+                "kingdom": "Plantae",
+                "order": "Alismatales",
+                "phylum": "Magnoliophyta"
+            },
+            "synonyms": [],
+            "language": "en",
+            "scientific_name": "Rhaphidophora tetrasperma",
+            "structured_name": {
+                "genus": "rhaphidophora",
+                "species": "tetrasperma"
+            }
+        },
+        "probability": 0.012387672778587693,
+        "confirmed": false,
+        "similar_images": [
+            {
+                "id": "b36766e37cad06d1d6546285d97826b4",
+                "similarity": 0.34761484200745263,
+                "url": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/images/b36/766e37cad06d1d6546285d97826b4.jpg",
+                "url_small": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/images/b36/766e37cad06d1d6546285d97826b4.small.jpg",
+                "citation": "Theoperatingsystem",
+                "license_name": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            {
+                "id": "cf06e45d72efffb586247e0fb16252e4",
+                "similarity": 0.3009718097476471,
+                "url": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/images/cf0/6e45d72efffb586247e0fb16252e4.jpg",
+                "url_small": "https://plant-id.ams3.cdn.digitaloceanspaces.com/similar_images/images/cf0/6e45d72efffb586247e0fb16252e4.small.jpg",
+                "citation": "Theoperatingsystem",
+                "license_name": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            }
+        ]
+    }
+]

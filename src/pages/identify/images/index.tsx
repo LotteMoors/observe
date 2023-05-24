@@ -21,7 +21,7 @@ export default function Images() {
     topic !== 'plants'
       ? {
           images,
-          modifiers: ['similar_images'],
+          similar_images: true,
         }
       : {
           images,

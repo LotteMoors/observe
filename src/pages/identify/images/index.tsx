@@ -10,6 +10,7 @@ export default function Images() {
   const [images, setImages] = useState([image]);
   const [response, setResponse] = useState('');
   const [error, setError] = useState(false);
+  const [key, setKey] = useState('');
   const URL =
     topic === 'plants'
       ? 'https://api.plant.id/v2/identify'
@@ -36,16 +37,24 @@ export default function Images() {
           ],
         };
 
-  const apiKey =
-    topic === 'plants'
-      ? process.env.NEXT_PUBLIC_PLANT_API_KEY
-      : topic === 'mushrooms'
-      ? process.env.NEXT_PUBLIC_MUSHROOM_API_KEY
-      : process.env.NEXT_PUBLIC_INSECT_API_KEY;
+  useEffect(() => {
+    if (topic) {
+      switch (topic) {
+        case 'plants':
+          setKey(process.env.NEXT_PUBLIC_PLANT_API_KEY as string);
+          break;
+        case 'mushrooms':
+          setKey(process.env.NEXT_PUBLIC_MUSHROOM_API_KEY as string);
+          break;
+        case 'insects':
+          setKey(process.env.NEXT_PUBLIC_INSECT_API_KEY as string);
+      }
+    }
+  }, [topic]);
 
   const headers = {
     'Content-Type': 'application/json',
-    'Api-Key': apiKey,
+    'Api-Key': key,
     // 'Access-Control-Allow-Origin': 'Content-Type'
   };
 
